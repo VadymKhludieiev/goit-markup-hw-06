@@ -198,11 +198,9 @@
       max-width: 1158px;
     }
   
-    .what > .container {
-      max-width: 1158px;
-    }
+
   
-    .team > .container {
+    .header-content > .container {
       max-width: 1158px;
     }
   
@@ -214,16 +212,16 @@
       max-width: 1158px;
     }
   
-    .modal-page {
+    .modal-window {
       margin: 80px auto;
       padding: 72px 24px 24px 24px;
     }
   
-    .header-logo-web {
+    .header-logo {
       margin-right: 76px;
     }
   
-    .header-addres {
+    .address-link-address {
       gap: 40px;
     }
   
@@ -240,7 +238,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office.jpg);
+        url(../images/hero-fone.jpg);
   
       background-repeat: no-repeat;
       background-position: center;
@@ -255,7 +253,7 @@
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office-2x.jpg);
+          url(../images/hero-fone-2x.jpg);
       }
     }
   
@@ -267,7 +265,7 @@
       padding-bottom: 188px;
     }
   
-    .team {
+    .header-content {
       padding: 120px 0;
     }
   
@@ -279,7 +277,7 @@
       gap: 24px;
     }
   
-    .features-title {
+    .features-header {
       text-align: center;
       font-size: 20px;
       font-weight: 500;
@@ -293,7 +291,7 @@
       font-weight: 400;
     }
   
-    .features-icon {
+    .div-icons {
       width: auto;
       height: auto;
       border-radius: 4px;
@@ -305,7 +303,7 @@
       display: flex;
     }
   
-    .features-item {
+    .features-list-inside {
       margin: 0 auto;
       width: calc((100% - 72px) / 4);
     }
@@ -314,13 +312,13 @@
       display: block;
     }
   
-    .team-list {
+    .our-team-list {
       gap: 24px;
       padding-left: 0px;
       padding-right: 0px;
     }
   
-    .team-item {
+    .our-team-item {
       width: calc((100% - 72px) / 4);
     }
   
@@ -334,28 +332,28 @@
       width: calc((100% - 24px * 5) / 6);
     }
   
-    .header-list-address {
+    .address {
       flex-direction: row;
       gap: 40px;
     }
   
-    .footer-container {
+    .div-footer {
       justify-content: normal;
       flex-wrap: nowrap;
       gap: 0;
     }
   
-    .header-addres-link {
+    .address-link {
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.02em;
     }
   
-    .footer-logo-web {
+    .footer-logo {
       margin-right: 76px;
     }
   
-    .footer-text {
+    .project-content-list {
       width: 264px;
     }
   
@@ -364,19 +362,19 @@
       margin-right: 80px;
     }
   
-    .footer-form-input {
+    .input-email {
       border: 1px solid rgba(255, 255, 255);
     }
   
-    .footer-form-input::placeholder {
+    .input-email::placeholder {
       color: rgba(255, 255, 255);
     }
   
-    .social-pages {
+    .social-media-p {
       margin-right: auto;
     }
   
-    .portfolio {
+    .our-portfolio {
       padding-top: 100px;
       padding-bottom: 120px;
     }
@@ -385,11 +383,11 @@
       margin-bottom: 72px;
     }
   
-    .projects-list {
+    .portfolio-list {
       gap: 48px 24px;
     }
   
-    .projects-item {
+    .portfolio-list-content {
       width: calc((100% - 48px) / 3);
     }
   
