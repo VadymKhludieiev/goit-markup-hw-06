@@ -5,13 +5,18 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
+    .div-icons {
+        display: none;
+    }
   }
   
   @media screen and (min-width: 428px) {
     .container {
       max-width: 428px;
     }
-  
+    .div-icons {
+        display: none;
+    }
     .modal-window  {
       width: 392px;
       margin: 96px auto;
@@ -36,6 +41,9 @@
   @media screen and (min-width: 768px) {
     .container {
       max-width: 768px;
+    }
+    .div-icons {
+        display: none;
     }
   
     .header-content > .container {
@@ -109,7 +117,9 @@
           url(../images/hero-fone-2x.jpg);
       }
     }
-  
+    .div-icons {
+        display: none;
+    }
     .hero-title {
       max-width: 496px;
       font-size: 56px;
@@ -228,6 +238,9 @@
     .hero-button {
       margin-top: 48px;
     }
+    .div-icons {
+        display: none;
+    }
   
     .hero {
       max-width: 1440px;
@@ -255,6 +268,9 @@
           ),
           url(../images/hero-fone-2x.jpg);
       }
+    }
+    .div-icons {
+        display: none;
     }
   
     .hero-container {
