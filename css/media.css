@@ -345,7 +345,7 @@ body {
       background-image: linear-gradient(
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)),  
-        url(../images/hero-fone@2x.jpg 
+        url(../images/hero-fone@2x.jpg );
     }
   }
   
@@ -882,13 +882,13 @@ body {
   
   /* FOOTER */
   
-  .footer-bg {
+  .features-footer {
     background-color: #2e2f42;
     padding: 96px 0;
   }
   
   
-  .logo-and-text {
+  .div-footer-logo-p {
     text-align: center;
     max-width: 288px;
     min-height: 112px;
@@ -897,7 +897,7 @@ body {
   
   
   
-  .logo-footer {
+  .footer-logo {
     font-family: "Raleway", sans-serif;
     display: inline-block;
   
@@ -912,7 +912,7 @@ body {
   
     
    
-  .logo-studio-footer {
+  .footer-logo-features {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
@@ -923,7 +923,7 @@ body {
   
   
   
-  .footer-text {
+  .project-content-list {
     text-align: start;
   
       font-weight: 400;
@@ -933,7 +933,7 @@ body {
       color: #f4f4fd;
   }
   
-  .footer-icons-container {
+  .social-media {
   margin-bottom: 72px;
   display: flex;
   flex-direction: column;
@@ -941,7 +941,7 @@ body {
   }
   
   
-   .footer-social-icons {
+   .social-media-list {
    
     margin-top: 16px;
    }
@@ -950,7 +950,7 @@ body {
   
   
   
-  .icons-title {
+  .social-media-p {
     
     
     font-weight: 500;
@@ -962,7 +962,7 @@ body {
   
   
   
-  .icon-item-footer {
+  .social-media-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -978,21 +978,21 @@ body {
   
   
   
-  .icon-item-footer:hover,
-  .icon-item-footer:focus {
+  .social-media-link:hover,
+  .social-media-link:focus {
     background-color:  #31d0aa;
   }
   
   
     
-  .footer-social-icons {
+  .social-media-list {
     display: flex;
     gap: 16px;
   }
   
   
   
-  .footer-form-wrapper {
+  .form {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -1000,7 +1000,7 @@ body {
   
   
   
-  .footer-form-text {
+  .form-p {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -1010,7 +1010,7 @@ body {
       margin-bottom: 16px;
   }
   
-  .footer-form {
+  .form-main {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -1018,7 +1018,7 @@ body {
   
   
   
-  .footer-form-input {
+  .input-email {
     width: 288px;
     height: 40px;
     padding: 8px 16px;
@@ -1036,7 +1036,7 @@ body {
   
    
    
-  .footer-form-button {
+  .btn-subscribe {
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -1067,25 +1067,25 @@ body {
   
   @media screen and (min-width: 768px) {
   
-  .footer-bg {
+  .features-footer {
     padding-left: 108px;
   }
   
-  .flex {
+  .div-footer {
     display: flex;
     flex-wrap: wrap;
    align-items: baseline;
   }
   
-  .logo-and-text {
+  .project-content-list  {
     text-align: start;
   }
   
-  .footer-icons-container {
+  .social-media {
     align-items: normal;
   }
   
-    .logo-and-links {
+    .social-media-list {
       display: flex;
       gap: 24px;
       align-items: baseline;
@@ -1093,16 +1093,16 @@ body {
   
     
   
-    .footer-form {
+    .form-main {
       flex-direction: row;
       gap: 24px;
     }
   
-    .footer-form-wrapper  {
+    .form  {
       display: block;
     }
     
-    .footer-form-input {
+    .input-email {
       width: 264px;
     }
   }
@@ -1111,30 +1111,30 @@ body {
   
   @media screen and (min-width: 1158px) {
   
-    .footer-bg {
+    .features-footer {
       padding: 100px 0;
     }
   
   
-    .logo-and-links {
+    .social-media-list {
       gap: 120px;
       margin-right: 80px;
     }
   
-    .logo-and-text {
+    .div-footer-logo-p {
       max-width: 264px;
       text-align: start;
       margin-right: 120px;
       margin-bottom: 0;
     }
   
-    .footer-icons-container {
+    .social-media {
       margin-right: 80px;
      margin-bottom: 0;
      
     }
   
-    .flex {
+    .div-footer {
       align-items: center;
     }
     
@@ -1144,7 +1144,7 @@ body {
   /* MENU-WINDOW-STYLES */
   
   
-  .menu-window-container {
+  .modal-window {
     display: flex;
     flex-direction: column;
     
@@ -1166,14 +1166,14 @@ body {
   }
     
   
-  .menu-window-container.is-open {
+  .modal-window.is-open {
     opacity: 1;
     visibility: visible;
       
   }
   
   
-  .close-menu-window-button {
+  .btn-modal {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -1197,79 +1197,9 @@ body {
             border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   }
   
-  .menu-window-navigation {
-    margin-bottom: auto;
-  }
   
+
   
-  .menu-window-list {
-    display: flex;
-    flex-direction: column;
-  
-      gap: 40px;
-     
-  }
-  
-  .menu-window-list-item-studio {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    color: #404bbf;
-  }
-  
-  
-  .menu-window-list-item {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-  
-     color: #2e2f42;
-  }
-  
-  
-  .menu-window-list-item:hover,
-  .menu-window-list-item:focus {
-  
-    color: #404bbf;
-  }
-  
-  .menu-window-adress {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-  
-  .menu-window-tel {
-  
-    color: #4d5ae5;
-  }
-  
-  .menu-window-email {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-  
-      color: #434455;
-  }
-    
-  
-  
-  .menu-window-adress-list:hover,
-  .menu-window-adress-list:focus {
-  
-    color: #4d5ae5;
-  }
-  
-  
-  .menu-window-social-link {
-    display: flex;
-    gap: 40px;
-  
-      margin-top: 48px;
-  }
   
   /* /MENU-WINDOW-STYLES */
   
@@ -1279,7 +1209,7 @@ body {
   
   /* BACKDROP */
   
-  .backdrop {
+  .modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -1296,11 +1226,11 @@ body {
   }
   
   
-  .backdrop.is-open {
+  /* .modal.is-open {
     opacity: 1;
     visibility: visible;
     padding: 8px 16px;
-  }
+  } */
   
   /* /BACKDROP */
   
@@ -1325,7 +1255,7 @@ body {
           padding: 72px 16px 24px;
   }
   
-  .modal-close-button {
+  .btn-modal {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -1349,20 +1279,20 @@ body {
   }
   
   
-  .modal-close-button:hover,
-  .modal-close-button:focus {
+  .btn-modal:hover,
+  .btn-modal:focus {
     fill: #fff;
     background-color: #404bbf;
     border: none;
   }
   
-  .close-button-icon {
+  .modal-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
     
   
-  .form-title {
+  .modal-info {
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -1375,7 +1305,7 @@ body {
       
   
     
-  .form-input {
+  .input-user {
     width: 100%;
     height: 40px;
   
@@ -1391,18 +1321,18 @@ body {
   }
   
   
-  .form-input:focus {
+  .input-user:focus {
     outline: transparent;
     border: 1px solid #4d5ae5;
   }
   
-  .input-wrapper {
+  .modal-form {
     margin-bottom: 8px;
   }
   
   
   
-  .form-field-label {
+  .label-name {
     display: block;
   
       font-weight: 400;
@@ -1416,12 +1346,12 @@ body {
   
   
   
-  .form-input-wrapper {
+  .input-user {
     position: relative;
   }
   
   
-  .input-icon {
+  .user-icon {
     position: absolute;
     top: 50%;
     left: 16px;
@@ -1432,12 +1362,12 @@ body {
   }
        
   
-  .form-input:focus+.input-icon {
+  .input-user:focus+.user-icon {
     fill: #4d5ae5;
   }
   
     
-  .comment {
+  .text-area {
       width: 100%;
       height: 120px;
       resize: none;
@@ -1458,25 +1388,25 @@ body {
   }
       
   
-  .comment::placeholder {
+  .text-area::placeholder {
     color: rgba(46, 47, 66, 0.4);
   }
       
   
-  .comment::placeholder {
+  .text-area::placeholder {
     color: rgba(46, 47, 66, 0.4);
   }
   
-  .comment:focus {
+  .text-area:focus {
     border: 1px solid #4d5ae5;
     outline: transparent;
   }
   
-  .checkbox-wrapper {
+  .checkbox-container  {
     margin-bottom: 24px;
   }
   
-  .privacy-checkbox:checked+.checkbox-label .own-checkbox {
+  .user-privacy:checked+.span-checkbox +.checkbox-label {
     border: none;
     border-color: 1px solid #404bbf;
     background-color: #404bbf;
@@ -1484,7 +1414,7 @@ body {
   }
   
   
-  .privacy-policy {
+  .privacy-link {
     text-decoration: underline;
     text-decoration-skip-ink: none;
   
@@ -1504,7 +1434,7 @@ body {
       color: #8e8f99;
   }
   
-  .own-checkbox {
+  .span-checkbox {
     display: inline-flex; 
     justify-content: center;
     align-items: center;
@@ -1526,7 +1456,7 @@ body {
   }
   
   
-  .submit-button {
+  .btn-checkbox {
     display: block;
     margin: 0 auto;
     border: none;
