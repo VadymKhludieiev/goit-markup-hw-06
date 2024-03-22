@@ -229,20 +229,20 @@
   /**-----------------OUR GALLERY-----------------*/
 
   .section-portfolio {
-      padding-top: 64px;
-      padding-bottom: 96px;
+    padding-top: 64px;
+    padding-bottom: 96px;
   }
 
   .btn-list {
-      justify-content: center;
+    justify-content: center;
   }
 
   .gallery-list {
-      column-gap: 24px;
-      justify-content: start;
+    column-gap: 24px;
+    justify-content: start;
   }
 
   .gallery-item {
-      width: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 }
